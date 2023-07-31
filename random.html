@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="ran.css">
+</head>
+<body>
+    <form action="" target="_blank" method="post" autocomplete="on">
+ <h1>Student Registration Form</h1>
+ <fieldset>
+ <legend>Fill in the following</legend>
+      <label for="fname">Firstname: <input type="text" id="fname" name="fname" required></label><br><br>
+      <label for="mname">Middlename: <input type="text" id="mname" name="mname" required></label><br><br>
+      <label for="lname">Lastname: <input type="text" id="lname" name="lname" required></label><br><br>
+   <label for="gender">Gender:</label>
+   <label for="male">
+       <input type="radio" id="male" name="gender">Male</label>
+   <label for="female">
+       <input type="radio" id="female" name="gender">Female</label>
+   <label for="other">
+       <input type="radio" id="other" name="gender">Other</label><br><br>
+   <label for="dob">Date of Birth: <input type="date" id="dob" name="dob"></label><br><br>
+   <label for="age">Age: <input type="number" id="age" name="age" size="4" min="18" max="50"></label><br><br>
+   <label for="dept">Department:
+   <select id="dept" name="dept" size="4">
+       <option value="">Department</option>
+       <option value="1">Electrical And Electronics Engineering</option>
+       <option value="2">Mechanical Engineering</option>
+       <option value="3">Material And Metallurgical Engineering</option>
+       <option value="4">Mechatronics Engineering</option>
+   </select>
+   </label><br><br>
+     <label for="courses">Select Your Courses: <select id="course" name="courses" size="10" multiple>
+           <option value="">Courses</option>
+           <option value="1">MTH 101</option>
+           <option value="2">MTH 103</option>
+           <option value="3">PHY 101</option>
+           <option value="4">PHY 103</option>
+           <option value="5">CHM 101</option>
+           <option value="6">GST 101</option>
+           <option value="7">GST 103</option>
+           <option value="8">GST 105</option>
+           <option value="9">PHY 108</option>
+           <option value="10">CHM 108</option>
+       </select></label><br><br>
+       <label for="country">Enter Your country:
+       <select id="country" name="country" size="60">
+           <option value="1">Algeria</option>
+           <option value="2">Australia</option>
+           <option value="3">Brazil</option>
+           <option value="4">Belgium</option>
+           <option value="5">Cameroon</option>
+           <option value="5">Canada</option>
+           <option value="6">China</option>
+           <option value="7">Denmark</option>
+           <option value="8">Dominica</option>
+           <option value="9">Egypt</option>
+           <option value="10">Ethiopia</option>
+           <option value="11">France</option>
+           <option value="12">Finland</option>
+           <option value="13">Ghana</option>
+           <option value="14">Germany</option>
+           <option value="15">Hong Kong</option>
+           <option value="16">Hungary</option>
+           <option value="17">Iraq</option>
+           <option value="18">Iran</option>
+           <option value="19">Israel</option>
+           <option value="20">Japan</option>
+           <option value="21">Jordan</option>
+          <option value="22">Jamaica</option>
+          <option value="23">Kenya</option>
+          <option value="24">Korea,North</option>
+          <option value="25">Korea,South</option>
+          <option value="26">Lesotho</option>
+          <option value="27">Liberia</option>
+          <option value="28">Libya</option>
+          <option value="29">Madagascar</option>
+          <option value="30">Malaysia</option>
+          <option value="31">Mali</option>
+          <option value="32">Morocco</option>
+          <option value="33">Namibia</option>
+          <option value="34">Netherland</option>
+          <option value="35">New Zealand</option>
+          <option value="36">Niger</option>
+          <option value="37">Nigeria</option>
+          <option value="38">Norway</option>
+          <option value="39">Pakistan</option>
+          <option value="40">Peru</option>
+          <option value="41">Portugal</option>
+          <option value="42">Qatar</option>
+          <option value="43">Russia</option>
+          <option value="44">Rwanda</option>
+          <option value="45">Saudi Arabia</option>
+          <option value="46">Senegal</option>
+          <option value="47">Singapore</option>
+          <option value="48">South Africa</option>
+          <option value="49">Spain</option>
+          <option value="50">Thailand</option>
+          <option value="51">Togo</option>
+          <option value="52">Tunisia</option>
+          <option value="53">Turkey</option>
+          <option value="54">United Kingdom</option>
+          <option value="55">Uruguay</option>
+          <option value="56">Venezuela</option>
+          <option value="57">Vatican City</option>
+          <option value="58"> Yemen</option>
+          <option value="59">Zambia</option>
+          <option value="60">Zimbabwe</option>
+       </select>
+       </label><br><br>
+       <label for="pnumber">Phone number: 
+       <select id="countrycode" name="countrycode">
+           <option value="1">+213</option>
+           <option value="2">+61</option>
+           <option value="3">+55</option>
+           <option value="4">+32</option>
+           <option value="5">+237</option>
+        <option value="6">+1</option>
+            <option value="7">+45</option>
+            <option value="8">+1767</option>
+            <option value="9">+20</option>
+           <option value="10">+251</option>
+           <option value="11">+33</option>
+           <option value="12">+358</option>
+           <option value="13">+233</option>
+           <option value="14">+49</option>
+           <option value="15">+852</option>
+           <option value="16">+36</option>
+           <option value="17">+964</option>
+           <option value="18">+39</option>
+           <option value="19">+98</option>
+           <option value="20">+972</option>
+           <option value="21">+81</option>
+           <option value="22">+962</option>
+           <option value="23">+1876</option>
+           <option value="24">+254</option>
+           <option value="25">+266</option>
+           <option value="26">+231</option>
+           <option value="27">+218</option>
+           <option value="28">+261</option>
+           <option value="29">+60</option>
+           <option value="30">+223</option>
+           <option value="31">+212</option>
+           <option value="32">+264</option>
+           <option value="33">+31</option>
+           <option value="34">+64</option>
+           <option value="35">+227</option>
+           <option value="36">+47</option>
+           <option value="37">+92</option>
+           <option value="38">+51</option>
+           <option value="39">+351</option>
+           <option value="40">+974</option>
+           <option value="41">+7</option>
+           <option value="42">+250</option>
+           <option value="43">+966</option>
+           <option value="44">+221</option>
+           <option value="45">+65</option>
+           <option value="46">+27</option>
+           <option value="47">+34</option>
+           <option value="48">+66</option>
+           <option value="49">+228</option>
+           <option value="50">+216</option>
+           <option value="51">+90</option>
+           <option value="52">+44</option>
+           <option value="53">+598</option>
+           <option value="54">+58</option>
+           <option value="55">+379</option>
+           <option value="56">+967</option>
+           <option value="57">+260</option>
+           <option value="58">+263</option>
+           <option value="59">+234</option>
+        <input type="tel" id="pnumber"  name="pnumber" required></select><br><br>
+       <label for="email">Email: <input type="email" id="email" name="email" placeholder="someone@gmail.com" required></label><br><br>
+       <label for="pw">Create new password: <input type="password" id="pw" name="pw" required></label><br><br>
+    <label for="pw">Confirm password: <input type="password" id="pw" name="pw" required></label><br><bro>
+    </label>
+    <label for="hobbies">Hobbies:</label>
+   <label><input type="checkbox" id="music" name="hobbies" required>Music</label>
+   <label for="movies"><input type="checkbox" id="movies" name="hobbies" required>Movies</label>
+    <label for="sports"><input type="checkbox" id="sports" name="hobbies" required>Sports</label>
+    <label for="travel"> <input type="checkbox" id="travel" name="hobbies" required>Travel</label><br><br>
+  <label for="photo">Upload File: <input type="file" id="photo" name="photo" required></label><br><br>
+  <input type="submit" value="submit">   
+   
+    
+        
+
+      
+ 
+ 
+  
+   
+    
+ </form>   
+</body>
+</html>
